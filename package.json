@@ -1,0 +1,30 @@
+{
+  "name": "express-io",
+  "version": "1.0.0",
+  "description": "express io websocket",
+  "main": "index.js",
+  "scripts": {
+    "test": "pm2 start ecosystem.config.js"
+  },
+  "author": "hsn",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.4.1",
+    "socket.io-client": "^4.4.1",
+    "body-parser": "^1.20.1",
+    "connect-redis": "^6.1.3",
+    "dotenv": "^8.1.0",
+    "express-device": "^0.4.2",
+    "express-session": "^1.17.0",
+    "express-socket.io-session": "^1.3.5",
+    "express-validator": "^6.14.2",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "ioredis": "^4.0.0",
+    "node-redis": "^0.1.7",
+    "node-redis-pubsub": "^5.0.0",
+    "socket.io-redis": "^6.1.1",
+    "npm-check-updates": "^16.0.1"
+  }
+}
